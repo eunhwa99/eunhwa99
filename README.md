@@ -1,4 +1,4 @@
-## Hi there 👋 I'm Eunhwa Park!
+## Hi there 👋
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:ff00ff,100:0000ff&height=120&text=Bang%20the%20world!&animation=scaleIn&fontColor=ffffff&fontSize=60" />
