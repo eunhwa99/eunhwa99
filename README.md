@@ -23,7 +23,15 @@
 
 ### 🔹 [Today-I-Learned](https://github.com/eunhwa99/Today-I-Learned)
 > Simply save what I learned today with categorizing features </br>
-**Tech Stack:** React, Kotlin, Spring Boot, MongoDB  
+**Tech Stack:** React, Kotlin, Spring Boot, MongoDB
+
+## 🌱 Open-Source Contributions
+- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/49700)  
+  Removed unused constructor in `DownloadRequest.class`
+- [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975)  
+  Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling.
+
+
 
 ---
 
