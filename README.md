@@ -30,7 +30,8 @@
   Removed unused constructor in `DownloadRequest.class`
 - [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975)  
   Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling.
-
+- [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978)
+  Remove unused code in SemanticVersion class
 
 
 ---
