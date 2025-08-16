@@ -26,12 +26,14 @@
 **Tech Stack:** React, Kotlin, Spring Boot, MongoDB
 
 ## 🌱 Open-Source Contributions
-- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/49700)  
+- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970)  
   Removed unused constructor in `DownloadRequest.class`
 - [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975)  
   Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling
 - [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978)  
   Remove unused code in SemanticVersion class
+- [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005)  
+  Refactor InfluxDBInterpreter for improved readability and maintainability
 
 
 ---
