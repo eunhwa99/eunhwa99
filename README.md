@@ -25,6 +25,10 @@
 > Simply save what I learned today with categorizing features </br>
 **Tech Stack:** React, Kotlin, Spring Boot, MongoDB
 
+### 🔹 [ImageGallery](https://github.com/eunhwa99/ImageGallery)
+> React + Flask based Simple Image applicatipn for hands-on CI/CD setup using GitHub Actions and Jenkins </br>
+**Tech Stack:** React, Python(Flask), Docker, Kubernetes(Minikube), Helm, Jenkins, GHCR  
+
 ## 🌱 Open-Source Contributions
 - [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970)  
   Removed unused constructor in `DownloadRequest.class`
@@ -34,8 +38,14 @@
   Remove unused code in SemanticVersion class
 - [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005)  
   Refactor InfluxDBInterpreter for improved readability and maintainability
-
-
+- [ZEPPELIN-6285](https://github.com/apache/zeppelin/pull/5033)  
+  Refactor getNotesInfo to improve readability and immutability
+- [ZEPPELIN-6299](https://github.com/apache/zeppelin/pull/5048)  
+  Refactor StaticRepl for readability, correctness, and modern Java usage
+- [ZEPPELIN-6300](https://github.com/apache/zeppelin/pull/5049)
+  Replace deprecated StringUtils.equals to Strings.CS.equals
+- [ZEPPELIN-6306](https://github.com/apache/zeppelin/pull/5069)
+  Prevent NPE in StaticRepl by fail-fast JavaCompiler check
 ---
 
 ## 🛠️ Tech Stack
