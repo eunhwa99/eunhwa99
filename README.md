@@ -10,42 +10,39 @@
 - 🏢 **Backend Developer at Samsung Electronics** (2023.01 ~ )
   - Developing cloud infrastructure for Samsung services like Samsung Notes, Samsung Health, and Samsung Cloud
   - Building large-scale systems using Java/Kotlin, Spring Boot, AWS, and Kubernetes
-  - Managing infrastructure that handles data for millions of global users
+  - Managing infrastructure that handles data for billions of global users
   - Analyzing system logs and improving efficiency with PySpark and Python
 
 ---
 
-## 📂 Featured Projects
-
-### 🔹 [Sera-Closet](https://github.com/Sera-Virtual-Closet)
-> Clothes recommendations application (2025.02~) </br>
-**Tech Stack:** Java, AWS Lambda, AWS S3, JPA, Spring Boot 
+## 📂 Featured Side Projects
 
 ### 🔹 [Today-I-Learned](https://github.com/eunhwa99/Today-I-Learned)
 > Simply save what I learned today with categorizing features </br>
-**Tech Stack:** React, Kotlin, Spring Boot, MongoDB
+**🛠️ Tech Stack:** React, Kotlin, Spring Boot, MongoDB
 
 ### 🔹 [ImageGallery](https://github.com/eunhwa99/ImageGallery)
-> React + Flask based Simple Image applicatipn for hands-on CI/CD setup using GitHub Actions and Jenkins </br>
-**Tech Stack:** React, Python(Flask), Docker, Kubernetes(Minikube), Helm, Jenkins, GHCR  
+> React + Flask based Simple Image application for hands-on CI/CD setup using GitHub Actions and Jenkins </br>
+**🛠️ Tech Stack:** React, Python(Flask), Docker, Kubernetes(Minikube), Helm, Jenkins, GHCR  
+
+### 🔹 [Sera-Closet](https://github.com/Sera-Virtual-Closet)
+> Clothes recommendations application (In progress) </br>
+**🛠️ Tech Stack:** Java, AWS Lambda, AWS S3, JPA, Spring Boot
 
 ## 🌱 Open-Source Contributions
-- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970)  
-  Removed unused constructor in `DownloadRequest.class`
-- [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975)  
-  Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling
-- [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978)  
-  Remove unused code in SemanticVersion class
-- [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005)  
-  Refactor InfluxDBInterpreter for improved readability and maintainability
-- [ZEPPELIN-6285](https://github.com/apache/zeppelin/pull/5033)  
-  Refactor getNotesInfo to improve readability and immutability
-- [ZEPPELIN-6299](https://github.com/apache/zeppelin/pull/5048)  
-  Refactor StaticRepl for readability, correctness, and modern Java usage
-- [ZEPPELIN-6300](https://github.com/apache/zeppelin/pull/5049)
-  Replace deprecated StringUtils.equals to Strings.CS.equals
-- [ZEPPELIN-6306](https://github.com/apache/zeppelin/pull/5069)
-  Prevent NPE in StaticRepl by fail-fast JavaCompiler check
+### ZEPPELIN
+- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970) Removed unused constructor in `DownloadRequest.class`
+- [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975) Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling
+- [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978) Remove unused code in SemanticVersion class
+- [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005) Refactor InfluxDBInterpreter for improved readability and maintainability
+- [ZEPPELIN-6285](https://github.com/apache/zeppelin/pull/5033) Refactor getNotesInfo to improve readability and immutability
+- [ZEPPELIN-6299](https://github.com/apache/zeppelin/pull/5048) Refactor StaticRepl for readability, correctness, and modern Java usage
+- [ZEPPELIN-6300](https://github.com/apache/zeppelin/pull/5049) Replace deprecated StringUtils.equals to Strings.CS.equals
+- [ZEPPELIN-6306](https://github.com/apache/zeppelin/pull/5069) Prevent NPE in StaticRepl by fail-fast JavaCompiler check
+
+### Kubernetes
+- [Kubernetes/website#52238](https://github.com/kubernetes/website/pull/52238) Sync Korean version of ingress-minikube.md to English version
+
 ---
 
 ## 🛠️ Tech Stack
@@ -81,13 +78,6 @@
 
 ---
 
-## 🌱 Currently Learning
-- Distributed Systems & Cloud Architecture
-- Infrastructure for AI (LLM + Systems)
-- Advanced Kubernetes & Helm
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -100,13 +90,13 @@
 ## 🧑‍💻 Contact Me
 
 <div align="center">
-  <a href="https://silver-programmer.tistory.com">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" />
-  </a>
   <a href="https://www.linkedin.com/in/eunhwa-park-20a286248">
     <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white" />
   </a>
   <a href="mailto:sophia99@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" />
+  </a>
+  <a href="https://silver-programmer.tistory.com">
+    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" />
   </a>
 </div>
