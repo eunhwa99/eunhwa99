@@ -25,10 +25,6 @@
 > React + Flask based Simple Image application for hands-on CI/CD setup using GitHub Actions and Jenkins </br>
 **🛠️ Tech Stack:** React, Python(Flask), Docker, Kubernetes(Minikube), Helm, Jenkins, GHCR  
 
-### 🔹 [Sera-Closet](https://github.com/Sera-Virtual-Closet)
-> Clothes recommendations application (In progress) </br>
-**🛠️ Tech Stack:** Java, AWS Lambda, AWS S3, JPA, Spring Boot
-
 ## 🌱 Open-Source Contributions
 ### ZEPPELIN
 - [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970) Removed unused constructor in `DownloadRequest.class`
