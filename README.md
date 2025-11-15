@@ -16,6 +16,9 @@
 ---
 
 ## 📂 Featured Side Projects
+### 🔹 [MCPContentSearch](https://github.com/eunhwa99/MCPContentSearch)
+> An MCP-based document indexing and search server for personal Notion and Tistory content, powered by LlamaIndex, ChromaDB, and a custom tool API.
+**🛠️ Tech Stack:** Python, LlamaIndex, ChromaDB, FastMCP, Notion API, Asyncio
 
 ### 🔹 [Today-I-Learned](https://github.com/eunhwa99/Today-I-Learned)
 > Simply save what I learned today with categorizing features </br>
