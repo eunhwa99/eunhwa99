@@ -16,15 +16,6 @@ I build backend systems where correctness, scale, and operating cost matter. At 
 - Reliability-focused engineering: zero-downtime migration, data integrity, cost reduction, and incident recovery
 - Agent-based engineering harnesses for production-code delivery, including branch hygiene, verification gates, review loops, and PR handoff
 
-## Impact Highlights
-
-- Led a zero-downtime migration of 78B+ rows and 50TB+ of data across 3 global regions, achieving 100% data integrity through dual write, shadow read, and per-user flag routing.
-- Reduced database operating costs by 95%, saving $2M+ per year by replacing a legacy ClustrixDB architecture with DynamoDB and Cassandra.
-- Redesigned a legacy relational schema into a DynamoDB single-table model, reducing critical-path database access from 4 calls to 1.
-- Migrated write-heavy workloads to Cassandra at 18K+ QPS, reducing RDB write load by 50%, lock wait time by 68%, and infrastructure cost by $700K+ per year.
-- Modernized a 10-year legacy IAM monolith into a DDD-based modular architecture, helping decouple 10+ downstream services and reduce potential PII exposure.
-- Optimized batch processing for a 56M+ user platform, reducing runtime by up to 61% and eliminating critical production OOM failures.
-
 ## Agent-Based Harness Engineering
 
 I am also interested in agent-based harness engineering: turning AI-agent workflows into repeatable delivery systems with scoped commits, validation gates, fresh review loops, and clean PR handoff. I have applied this approach to real production-code changes in a Spring Boot backend repository, keeping implementation, API documentation, verification, and review feedback separated and traceable.
