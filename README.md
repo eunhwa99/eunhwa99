@@ -18,7 +18,7 @@ I build backend systems where correctness, scale, and operating cost matter. At 
 
 ## Agent-Based Harness Engineering
 
-I am also interested in agent-based harness engineering: turning AI-agent workflows into repeatable delivery systems with scoped commits, validation gates, fresh review loops, and clean PR handoff. I have applied this approach to real production-code changes in a Spring Boot backend repository, keeping implementation, API documentation, verification, and review feedback separated and traceable.
+I am also interested in agent-based harness engineering: turning AI-agent workflows into repeatable delivery systems with scoped commits, validation gates, fresh review loops, and clean PR handoff. I have applied this approach to real production-code changes in a Spring Boot backend repository and to operational automation projects, including the `ai-news-alerts` Slack brief workflow.
 
 ## Core Stack
 
@@ -33,6 +33,11 @@ I am also interested in agent-based harness engineering: turning AI-agent workfl
 ## Selected GitHub Work
 
 Public repositories that show adjacent tooling and delivery interests.
+
+### [Agent Harness Playbook](https://github.com/eunhwa99/agent-harness-playbook)
+Public, sanitized playbook for agent-based engineering harnesses: branch preflight, plan-first execution, dry-run safety, verification gates, fresh reviewer loops, and PR handoff. The `ai-news-alerts` Slack automation project was built with this harness style and is documented as a sanitized example.
+
+`Agent Workflows` `GitHub Actions` `Dry Run Safety` `Review Gates` `Operational Automation`
 
 ### [MCPContentSearch](https://github.com/eunhwa99/MCPContentSearch)
 MCP-based document indexing and search server for personal Notion and Tistory content, powered by LlamaIndex, ChromaDB, and a custom tool API.
