@@ -1,91 +1,75 @@
-## Hi there 👋
+# EUNWHA PARK
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:ff00ff,100:0000ff&height=120&text=Bang%20the%20world!&animation=scaleIn&fontColor=ffffff&fontSize=60" />
-</div>
+Backend Software Engineer | Distributed Systems | Java/Spring | AWS/EKS
 
----
+I build backend systems where correctness, scale, and operating cost matter. At Samsung Electronics, I work on high-traffic production platforms with a focus on database migration, IAM modernization, batch processing, and cloud-native infrastructure.
 
-## 🎯 Career Summary
-- 🏢 **Backend Developer at Samsung Electronics** (2023.01 ~ )
-  - Developing cloud infrastructure for Samsung services like Samsung Notes, Samsung Health, and Samsung Cloud
-  - Building large-scale systems using Java/Kotlin, Spring Boot, AWS, and Kubernetes
-  - Managing infrastructure that handles data for billions of global users
-  - Analyzing system logs and improving efficiency with PySpark and Python
+[LinkedIn](https://www.linkedin.com/in/eunhwa-park-20a286248) | [GitHub](https://github.com/eunhwa99) | [Blog](https://silver-programmer.tistory.com) | [Email](mailto:eun.h.engineer@gmail.com)
 
 ---
 
-## 📂 Featured Side Projects
-### 🔹 [MCPContentSearch](https://github.com/eunhwa99/MCPContentSearch)
-> An MCP-based document indexing and search server for personal Notion and Tistory content, powered by LlamaIndex, ChromaDB, and a custom tool API. </br>
-**🛠️ Tech Stack:** Python, LlamaIndex, ChromaDB, FastMCP, Notion API, Asyncio
+## Professional Focus
 
-### 🔹 [Today-I-Learned](https://github.com/eunhwa99/Today-I-Learned)
-> Simply save what I learned today with categorizing features </br>
-**🛠️ Tech Stack:** React, Kotlin, Spring Boot, MongoDB
+- Distributed backend systems with Java, Kotlin, Spring Boot, and production-grade data stores
+- Large-scale database modernization across DynamoDB, Cassandra, and relational systems
+- Cloud-native infrastructure on AWS, EKS, Kubernetes, Docker, Jenkins, and GitHub Actions
+- Reliability-focused engineering: zero-downtime migration, data integrity, cost reduction, and incident recovery
+- Agent-based engineering harnesses for production-code delivery, including branch hygiene, verification gates, review loops, and PR handoff
 
-### 🔹 [ImageGallery](https://github.com/eunhwa99/ImageGallery)
-> React + Flask based Simple Image application for hands-on CI/CD setup using GitHub Actions and Jenkins </br>
-**🛠️ Tech Stack:** React, Python(Flask), Docker, Kubernetes(Minikube), Helm, Jenkins, GHCR  
+## Impact Highlights
 
-## 🌱 Open-Source Contributions
-### ZEPPELIN
-- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970) Removed unused constructor in `DownloadRequest.class`
-- [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975) Refactored `initAuth` in `Neo4jConnectionManager` for safer enum parsing and improved default handling
-- [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978) Remove unused code in SemanticVersion class
-- [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005) Refactor InfluxDBInterpreter for improved readability and maintainability
-- [ZEPPELIN-6285](https://github.com/apache/zeppelin/pull/5033) Refactor getNotesInfo to improve readability and immutability
-- [ZEPPELIN-6299](https://github.com/apache/zeppelin/pull/5048) Refactor StaticRepl for readability, correctness, and modern Java usage
-- [ZEPPELIN-6300](https://github.com/apache/zeppelin/pull/5049) Replace deprecated StringUtils.equals to Strings.CS.equals
-- [ZEPPELIN-6306](https://github.com/apache/zeppelin/pull/5069) Prevent NPE in StaticRepl by fail-fast JavaCompiler check
+- Led a zero-downtime migration of 78B+ rows and 50TB+ of data across 3 global regions, achieving 100% data integrity through dual write, shadow read, and per-user flag routing.
+- Reduced database operating costs by 95%, saving $2M+ per year by replacing a legacy ClustrixDB architecture with DynamoDB and Cassandra.
+- Redesigned a legacy relational schema into a DynamoDB single-table model, reducing critical-path database access from 4 calls to 1.
+- Migrated write-heavy workloads to Cassandra at 18K+ QPS, reducing RDB write load by 50%, lock wait time by 68%, and infrastructure cost by $700K+ per year.
+- Modernized a 10-year legacy IAM monolith into a DDD-based modular architecture, helping decouple 10+ downstream services and reduce potential PII exposure.
+- Optimized batch processing for a 56M+ user platform, reducing runtime by up to 61% and eliminating critical production OOM failures.
 
-### Kubernetes
-- [Kubernetes/website#52238](https://github.com/kubernetes/website/pull/52238) Sync Korean version of ingress-minikube.md to English version
+## Agent-Based Harness Engineering
 
----
+I am also interested in agent-based harness engineering: turning AI-agent workflows into repeatable delivery systems with scoped commits, validation gates, fresh review loops, and clean PR handoff. I have applied this approach to real production-code changes in a Spring Boot backend repository, keeping implementation, API documentation, verification, and review feedback separated and traceable.
 
-## 🛠️ Tech Stack
+## Core Stack
 
-<div align="center">
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=OpenJDK&logoColor=white">
-<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
-<img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-<img src="https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=JUnit5&logoColor=white">
-<img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=Hibernate&logoColor=white">
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white">
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white"/>
-<img src="https://img.shields.io/badge/Apache%20Kafka-000?style=for-the-badge&logo=apachekafka&logoColor=white"> 
-<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=Redis&logoColor=white"> 
-<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"> 
-<img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=Amazon%20EC2&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=Amazon%20S3&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>    
-<img src="https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white">
-<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=Kotlin&logoColor=white">
-<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
-<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=Kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"/>
-</div>
----
+| Area | Technologies |
+| --- | --- |
+| Languages | Java, Kotlin, Python |
+| Backend Architecture | Spring Boot, Hexagonal Architecture, DDD |
+| Data Systems | DynamoDB, Cassandra, MySQL, Kafka, S3 |
+| Cloud & DevOps | AWS, EKS, Kubernetes, Docker, Jenkins, GitHub Actions |
+| Certification | AWS Certified Solutions Architect - Professional |
 
-## 🧑‍💻 Contact Me
+## Selected GitHub Work
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/eunhwa-park-20a286248">
-    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:sophia99@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white" />
-  </a>
-  <a href="https://silver-programmer.tistory.com">
-    <img src="https://img.shields.io/badge/Tistory-000000?style=for-the-badge&logo=Tistory&logoColor=white" />
-  </a>
-</div>
+Public repositories that show adjacent tooling and delivery interests.
+
+### [MCPContentSearch](https://github.com/eunhwa99/MCPContentSearch)
+MCP-based document indexing and search server for personal Notion and Tistory content, powered by LlamaIndex, ChromaDB, and a custom tool API.
+
+`Python` `LlamaIndex` `ChromaDB` `FastMCP` `Notion API` `Asyncio`
+
+### [ImageGallery](https://github.com/eunhwa99/ImageGallery)
+React and Flask image application built to practice end-to-end CI/CD, container delivery, and Kubernetes deployment workflows.
+
+`React` `Flask` `Docker` `Kubernetes` `Helm` `Jenkins` `GHCR`
+
+### [Today-I-Learned](https://github.com/eunhwa99/Today-I-Learned)
+Learning archive application with categorization features and a Kotlin/Spring backend.
+
+`React` `Kotlin` `Spring Boot` `MongoDB`
+
+## Open Source
+
+### Apache Zeppelin
+
+Awarded Grand Prize (1st place) in the Apache Zeppelin Open Source Contribution Program for impactful upstream contributions across code quality, reliability, and maintainability.
+
+- [ZEPPELIN-6306](https://github.com/apache/zeppelin/pull/5069) Prevented NPE in `StaticRepl` with fail-fast JavaCompiler validation.
+- [ZEPPELIN-6299](https://github.com/apache/zeppelin/pull/5048) Refactored `StaticRepl` for readability, correctness, and modern Java usage.
+- [ZEPPELIN-6264](https://github.com/apache/zeppelin/pull/5005) Refactored `InfluxDBInterpreter` for maintainability.
+- [ZEPPELIN-6242](https://github.com/apache/zeppelin/pull/4975) Improved `Neo4jConnectionManager` enum parsing and default handling.
+- [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970), [ZEPPELIN-6243](https://github.com/apache/zeppelin/pull/4978), [ZEPPELIN-6285](https://github.com/apache/zeppelin/pull/5033), [ZEPPELIN-6300](https://github.com/apache/zeppelin/pull/5049) Additional cleanup and refactoring contributions merged upstream.
+
+### Kubernetes Website
+
+- [Kubernetes/website#52238](https://github.com/kubernetes/website/pull/52238) Synced Korean ingress-minikube documentation with the English version.
