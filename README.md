@@ -45,7 +45,7 @@ Public allowlisted backup of my local Codex setup, including reusable skills, ho
 `Codex` `Skills` `Hooks` `Automation Guardrails` `Workflow Safety`
 
 ### [MCPContentSearch](https://github.com/eunhwa99/MCPContentSearch)
-MCP-based document indexing and search server for personal Notion and Tistory content, powered by LlamaIndex, ChromaDB, and a custom tool API.
+MCP-based document indexing and search server for personal Notion, Github, and Tistory blog content, powered by LlamaIndex, ChromaDB, and a custom tool API.
 
 `Python` `LlamaIndex` `ChromaDB` `FastMCP` `Notion API` `Asyncio`
 
