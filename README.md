@@ -31,10 +31,10 @@ interested in agent-based workflows and AI infrastructure.
 
 | repo | description | stack |
 |------|-------------|-------|
+| [MCPContentSearch](https://github.com/eunaverse/MCPContentSearch) | personal knowledge search via MCP — indexes Notion, GitHub, Tistory | Python · LlamaIndex · ChromaDB · FastMCP |
 | [ai-news-alerts](https://github.com/eunaverse/ai-news-alerts) | daily AI news brief to Slack via scheduled workflow | Python · Slack API · GitHub Actions |
 | [agent-harness-playbook](https://github.com/eunaverse/agent-harness-playbook) | sanitized playbook for agent-based engineering workflows | GitHub Actions · Automation |
 | [codex-config](https://github.com/eunaverse/codex-config) | local Codex setup — skills, hooks, safety guardrails | Codex · Automation |
-| [MCPContentSearch](https://github.com/eunaverse/MCPContentSearch) | personal knowledge search via MCP — indexes Notion, GitHub, Tistory | Python · LlamaIndex · ChromaDB · FastMCP |
 | [ImageGallery](https://github.com/eunaverse/ImageGallery) | end-to-end CI/CD and Kubernetes deployment practice | React · Flask · Docker · Kubernetes · Helm · Jenkins |
 | [Today-I-Learned](https://github.com/eunaverse/Today-I-Learned) | learning archive with categorization | React · Kotlin · Spring Boot · MongoDB |
 
