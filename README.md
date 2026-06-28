@@ -42,7 +42,7 @@ interested in agent-based workflows and AI infrastructure.
 
 ## open source
 
-🏆 **Apache Zeppelin** — Korean OSS contribution program
+🏆 **Apache Zeppelin** —  Korean Open Source Contribution Program ([OSSCA](https://www.contribution.ac))
 → 8 PRs merged upstream: reliability fixes, refactoring, interpreter improvements
 [ZEPPELIN-6220](https://github.com/apache/zeppelin/pull/4970) · [6243](https://github.com/apache/zeppelin/pull/4978) · [6285](https://github.com/apache/zeppelin/pull/5033) · [6300](https://github.com/apache/zeppelin/pull/5049) · [6306](https://github.com/apache/zeppelin/pull/5069) · [6299](https://github.com/apache/zeppelin/pull/5048) · [6264](https://github.com/apache/zeppelin/pull/5005) · [6242](https://github.com/apache/zeppelin/pull/4975)
 
