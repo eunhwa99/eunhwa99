@@ -1,4 +1,4 @@
-# EUNWHA PARK
+# Eunwha (Euna) Park
 
 Backend Software Engineer | Distributed Systems | Java/Spring | AWS/EKS
 
